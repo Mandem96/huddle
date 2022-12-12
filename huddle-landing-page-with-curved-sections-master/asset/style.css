@@ -17,11 +17,15 @@
  }
 
 header .header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 55rem;
-    margin-top: 2.5rem;
+ display: inline-flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-top:4rem; 
+
+   
+    
+    
+
    
 } 
 
@@ -468,6 +472,13 @@ input{
     }
 body{
 
+
+    
+}
+
+header .header{
+  
+
 }
   
  /* .logo{
@@ -645,6 +656,23 @@ display: none;
     justify-content: center;
 }
 
+.top-wrapper svg{
+    display: none;
+} 
+
+.mobile img{
+    margin-bottom: 1rem;
+}
+
+.down-mobile svg{
+    display: none;
+}
+
+
+.down-wrapper img{
+    display: inline;
+
+}
 .last-section-middle-paragraph span{
     display: flex;
     align-items: center;
@@ -661,6 +689,8 @@ display: none;
     margin-left: 10.2rem;
     margin-top: 1rem;
 }
+
+
 
 }
 
